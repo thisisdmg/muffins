@@ -2,8 +2,9 @@
 
 muffins is a Sass-Framework. The special feature of the framework is that it consists exclusively of as a reset, grid and utility classes. Everything else is managed via themes.
 
-Why you should use muffins?
-
+**Why you should use muffins?**
+  
+  - **Create your own grid**
   - Full responsive - Mobile First
   - Built in intelligent HTML5 und CSS3
   - Scalable
@@ -257,7 +258,7 @@ With Visibilty classes you can depending of the screen size and orientation and 
 
 **Usage**
 
-```
+``
 <div class="row">
   <div class="col-xs-12 hide-for-landscape">.col-xs-12 .hide-for-landscape (is portrait)</div>
   <div class="col-xs-12 hide-for-portrait">.col-xs-12 .hide-for-portrait (is landscape)</div>
