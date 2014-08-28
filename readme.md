@@ -257,7 +257,7 @@ With Visibilty classes you can depending of the screen size and orientation and 
 
 **Usage**
 
-```
+``
 <div class="row">
   <div class="col-xs-12 hide-for-landscape">.col-xs-12 .hide-for-landscape (is portrait)</div>
   <div class="col-xs-12 hide-for-portrait">.col-xs-12 .hide-for-portrait (is landscape)</div>
@@ -303,12 +303,13 @@ Muffins builds on mobile-first. To even support old browsers that do not yet sup
 
 To create the style sheet file without media queries, you have to create a new `code .scss` file. In this you override the variable `$fix-mqs` with `true`. Well but still have to import the standard styles. To make it easier to hold and nurture avoid double, you can easily import your `style.scss` here.
 
-#### Mixin nutzen
+#### Usage Mixins
 
 Of course you can also use the mixin `fix-media-queries()` in your own styles. It should be noted that you have a `$min-width` as well as a `$max-width` (default: false).
 
 **Usage**
 
+```
 .content {
 
 float: left;
@@ -332,7 +333,7 @@ background-color: blue;
  
 }
 
-
+```
 ### Old browser
 
 Old browsers (eg IE < 9) sometimes require a different stylesheet.
@@ -341,6 +342,7 @@ With muffins you can include these statements directly in your sass files. With 
 
 **Usage**
 
+```
 .content {
 
 width: 80%;
@@ -357,6 +359,8 @@ whatever-you-need: comes here;
 }
 
 }
+
+```
 
 #### Generate stylesheet file
 
