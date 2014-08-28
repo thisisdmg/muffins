@@ -86,6 +86,7 @@ In the download package you will find the folder "muffins" with the following fi
 
 Now add the muffins folder in your project.
 
+You can also include the grid in your ruby project by gem: [muffins-gem](https://github.com/thisisdmg/muffins-rails)
  
 Here you can have a custom settings for your grid (for further explanation, see Grid. Then you need to include the framework in your project's own Sass file `@import "[Pfad zum muffins-Ordner]/style"
 
