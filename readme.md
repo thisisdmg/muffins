@@ -471,3 +471,10 @@ input {
 ## Icons
 
 TODO
+
+
+---------------------------------
+
+# Authors
+
+Created by [Stefanie Böhme](https://twitter.com/_Funshinebear )
