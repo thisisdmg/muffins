@@ -257,7 +257,7 @@ With Visibilty classes you can depending of the screen size and orientation and 
 
 **Usage**
 
-``
+```
 <div class="row">
   <div class="col-xs-12 hide-for-landscape">.col-xs-12 .hide-for-landscape (is portrait)</div>
   <div class="col-xs-12 hide-for-portrait">.col-xs-12 .hide-for-portrait (is landscape)</div>
@@ -388,6 +388,7 @@ With the classes `.left`, `.right` and `.clearfix` elements can be positioned qu
 ```
 
 #### Hide 
+
 ##### Hide Elemente
 
 To hide an item you can just use the class `.hide`.
