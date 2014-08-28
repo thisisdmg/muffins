@@ -5,13 +5,13 @@
 
 /** 
  * Sets the grids maximum width
- * @var $grid-max-width (pixels|ems|percentage)
+ * @var $grid-max-width (pixels|ems|rems|percentage)
  */
 $grid-max-width: 1440px !default;
 
 /** 
  * Sets the gutter with
- * @var $space (pixels|ems|percentage)
+ * @var $space (pixels|ems|rems|percentage)
  */
 $space : 8px !default;
 

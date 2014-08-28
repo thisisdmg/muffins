@@ -1,5 +1,5 @@
 /**
- * BASE RESEt
+ * BASE RESET
  * -------------------------------------
  */
 
@@ -16,6 +16,7 @@ body {
     margin: 0;
 }
 
+// Using border-box-model as default
 * {
   @include box-sizing(border-box);
 }

@@ -3,6 +3,10 @@
  * -------------------------------------
  */
 
+
+/**
+ * Generate the grid Classes 
+ */
 @mixin generate-grid ($breakpoints) {
 
 	@each $breakpoint in $breakpoints {
@@ -38,7 +42,9 @@
 }
 
 
-// Creates all main classes for grid
+/**
+ * Creates all main classes for grid
+ */
 @mixin generate-grid-classes ($class-name) {
 
   @for $i from 1 through $total-columns {
@@ -60,7 +66,9 @@
 	}
 }
 
-// Creates all helper classes for grid
+/**
+ * Creates all helper classes for grid
+ */
 @mixin generate-grid-helper-classes ($class-name) {
 
   @for $i from 1 through $total-columns {
@@ -82,14 +90,16 @@
 	}
 }
 
-// Creates all visibility classes for grid 
+/**
+ * Creates all visibility classes for grid 
+ */
 @mixin generate-grid-visibility-classes ($class-name) {
 
   .hide-#{$class-name} {
-      display: none !important;
+      display: none;
   }
   .show-#{$class-name} {
-      display: inherit !important;
+      display: inherit ;
   }
 
   table.show-#{$class-name} {
@@ -113,21 +123,25 @@
   }
 }
 
-
+/** 
+ * Creates all oriantation classes for grid
+ */
 @mixin gernerate-orientation-classes () {
 
   @media screen and (orientation: landscape) {
     .hide-for-landscape {
-      display : none !important;
+      display : none ;
     }
   }
 @media screen and (orientation: portrait) {
     .hide-for-portrait {
-      display : none !important;
+      display : none ;
     }
   }
 }
-// Centered container element
+/**
+ * Centered container element
+ */
 @mixin container-fixed () {
   margin-right: auto;
   margin-left: auto;
@@ -137,7 +151,9 @@
   @include clearfix();
 }
 
-// Creates a wrapper for a series of columns
+/**
+ *  Creates a wrapper for a series of columns
+ */
 @mixin generate-row ($gutter:($space * 2)) {
   margin-left:  ($gutter / -2);
   margin-right: ($gutter / -2);
